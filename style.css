@@ -103,7 +103,8 @@ font-size: 0.7rem;
     font-weight: 600;
     cursor: pointer;
 }
-.card button:hover{
+.card button:hover,
+.card button:focus{
     background-color: var(--very-dark-blue);
 }
 
