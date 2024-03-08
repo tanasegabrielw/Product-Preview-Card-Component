@@ -17,30 +17,22 @@ body{
     box-sizing: border-box;
     font-size: 14px;
     height: 100%;
-    background-color: var(--cream);
 }
-
-.card > img{
-    width: 100%;
-    border-radius: 0.8rem 0 0 0.8rem;
-}
-.right-container{
-    background-color: var(--white);
-}
-
 main{
     height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 .card{
-    width: 20rem;
-    height: auto;
     display: flex;
-    border-radius: 0.8rem;
+    width: 30rem;;
+}
 
+.card > img{
+    display: block;
+    width: 50%;
+    height: auto;
 }
 
 
@@ -56,25 +48,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 
 .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 45%, 44%); } */
