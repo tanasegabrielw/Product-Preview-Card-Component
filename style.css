@@ -17,6 +17,7 @@ body{
     box-sizing: border-box;
     font-size: 14px;
     height: 100%;
+    background-color: var(--cream);
 }
 main{
     height: 100%;
@@ -26,13 +27,18 @@ main{
 }
 .card{
     display: flex;
-    width: 30rem;;
+    max-width: 30rem;
+    border-radius: 0 0.8rem 0.8rem 0;
 }
 
 .card > img{
     display: block;
     width: 50%;
     height: auto;
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+.right-container{
+    margin-left: 2rem;
 }
 
 
