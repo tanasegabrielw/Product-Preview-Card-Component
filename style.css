@@ -48,8 +48,8 @@ main{
     flex:1;
     padding:1.2rem;
 }
-h1,p,.logo{
-    margin-bottom: 1rem;
+h1,p,.logo, .price{
+    margin-bottom: 1.2rem;
 }
 
 .card .logo{
@@ -88,6 +88,19 @@ font-size: 0.7rem;
     font-size:0.8rem;
     color:var(--dark-grayish-blue);
     text-decoration: line-through;
+}
+
+.card button {
+    width: 100%;
+    padding:0.8rem 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--dark-cyan);
+    color:var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    font-weight: 600;
 }
 
 
