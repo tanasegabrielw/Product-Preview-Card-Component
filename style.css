@@ -8,27 +8,28 @@
 --dark-grayish-blue:hsl(228, 12%, 48%);
 --white:hsl(0, 0%, 100%);
 }
-html{
-    height: 100%;
-}
+
 body{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:'Fraunces', sans-serif;
     font-size: 14px;
-    height: 100%;
+    line-height: 1.5;
+    min-height: 100vh;
     background-color: var(--cream);
 }
 main{
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card{
     display: flex;
-    max-width: 30rem;
+    max-width: 35rem;
     border-radius: 0 0.8rem 0.8rem 0;
+    background-color: var(--white);
 }
 
 .card > img{
@@ -36,12 +37,21 @@ main{
     width: 50%;
     height: auto;
     border-radius: 0.8rem 0 0 0.8rem;
+    background-color:transparent;
 }
 .right-container{
     margin-left: 2rem;
 }
 
-
+.card .logo{
+font-family: 'Montserrat', sans-serif;
+letter-spacing:0.2rem;
+text-transform: uppercase;
+font-weight: 700;
+color:var(--dark-grayish-blue);
+font-size: 0.7rem;
+margin-top: 2rem;
+}
 
 
 
