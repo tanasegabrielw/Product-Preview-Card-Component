@@ -12,12 +12,17 @@
 body{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing:border-box;
     font-family:'Fraunces', sans-serif;
     font-size: 14px;
     line-height: 1.5;
     min-height: 100vh;
     background-color: var(--cream);
+}
+p,h1,button{
+    margin:0;
+    padding:0;
+    border:none;
 }
 main{
     min-height: 100vh;
@@ -34,13 +39,17 @@ main{
 
 .card > img{
     display: block;
-    width: 50%;
+    width: 50%; /* Only takes half of the container width */
     height: auto;
-    border-radius: 0.8rem 0 0 0.8rem;
+    border-radius: 0.8rem 0 0 0.8rem; /* Adds radius only to left side */
     background-color:transparent;
 }
 .right-container{
-    margin-left: 2rem;
+    flex:1;
+    padding:1.2rem;
+}
+h1,p,.logo{
+    margin-bottom: 1rem;
 }
 
 .card .logo{
@@ -50,17 +59,36 @@ text-transform: uppercase;
 font-weight: 700;
 color:var(--dark-grayish-blue);
 font-size: 0.7rem;
-margin-top: 2rem;
 }
 
+.card h1{
+    line-height: 1;
+    font-size: 2rem;
+    font-family: inherit;
+}
 
+.card p{
+    font-size: 1rem;
+    color:var(--dark-grayish-blue);
+}
 
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+}
+.price .new{
+    font-size: 2rem;
+    color:var(--dark-cyan);
+    font-weight: 700;
+}
 
-
-
-
-
-
+.price .old{
+    font-size:0.8rem;
+    color:var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
 
 
 
